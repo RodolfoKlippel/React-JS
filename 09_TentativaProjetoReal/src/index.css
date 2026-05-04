@@ -1,0 +1,55 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.cabecalho{
+  background-color: hsl(230, 98%, 62%);
+  top: 0px;
+  z-index: 2;
+  position: sticky;
+}
+
+.container{
+  margin: 0px auto;
+  max-width: 90%;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.linksNav{
+  text-decoration: none;
+  color: black;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.botoes{
+  padding: 30px;
+}
+
+.botoes button{
+  padding: 10px;
+  border: none;
+  margin: 0px 0px 0px 5px;
+  border-radius: 10px;
+  background-color: hsl(5, 98%, 62%);
+  color: white;
+}
+
+.secaoNav{
+  display: flex;
+  align-items: center;
+}
+
+
+/* Main */
+
+.main{
+  margin-top: 40px;
+}
